@@ -1,4 +1,4 @@
-def prog1 (a,b):
+def prog2 (a,b):
 	list=[]
 	if a>b:
 		a,b=b,a
@@ -7,4 +7,4 @@ def prog1 (a,b):
 			list.append(i)
 	print(list)
 a,b=int(input('first number: ')),int(input('second number: '))
-prog1 (a,b)
+prog2 (a,b)
