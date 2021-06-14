@@ -5,6 +5,7 @@ def func2 (a) :
         if i!= '.' :
             res = res * 10 + value[i]
             b=a.index('.')
-            c=res/10**b
+            d=len(a[b+1: ])
+            c=res/10**d
     return c
 print (func2 (a))
